@@ -1,9 +1,9 @@
 <?php include "templates/header.php"; ?>
 
    
-<img src="images/bluewallskirt.jpg" id="mainimage">
+<img src="assets/images/bluewallskirt.jpg" id="mainimage">
     
-        <img src="images/IMG_20171029_180205.jpg" id="aboutmeimg">
+        <img src="assets/images/IMG_20171029_180205.jpg" id="aboutmeimg">
 
     
    <div id="aboutme"> <h3>About Me</h3>
