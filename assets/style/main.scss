@@ -1,0 +1,250 @@
+$main-color: rgb(50,255,255);
+$secondary-color: rgb(50,50,50);
+$grey: rgb(104,96,90);
+$lightgrey: rgb(197,185,179);
+$grey-blue: rgb(130,141,149);
+$tanwhite: rgb(244,243,237);
+$main-font: 'Permanent Marker', cursive;
+$paragraph-font: 'Open Sans', sans-serif;
+
+
+
+body{
+    margin: 0px;
+}
+
+
+
+h1{
+font-family: $main-font;
+    font-size: 60px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+
+
+h2{
+font-family: $main-font;
+    font-size: 20px;
+    text-align: center;  
+}
+
+h3{font-family: $main-font;
+    font-size: 40px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+  text-align: center;
+    margin-left: 10%;
+    width: 40%; 
+}
+
+
+
+p{
+   font-family: $paragraph-font;
+}
+
+
+
+
+#social-icons{
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 40px;
+    padding: 0;  
+}
+
+
+.fa {
+    padding: 5px;
+    width: 30px;
+    text-decoration: none;
+    background: white;
+    color: black;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+
+nav{
+    text-align: center;
+        text-decoration: none;
+
+}
+
+.menu{
+       font-family: $paragraph-font;
+    list-style-type: none;
+    //margin-left: 300px;
+    margin: 0 auto;
+    display: inline-block;
+    margin-top: 0;
+    //width: 40%;
+    padding: 0px;
+    margin-bottom: 15px;
+}
+
+    li{
+        font-family: $paragraph-font;
+        display: inline;
+        padding-left: 10px;
+        padding-right: 10px;
+        text-decoration: none;
+    
+    li a{ 
+    color: black;
+     text-decoration: none;        
+    }
+}
+
+a{text-decoration: none;
+color: black;}
+
+a:active { 
+    color: $grey-blue;
+}
+
+
+#mainimage{
+  
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+
+
+
+
+
+#trait{
+    width: 40%;
+    margin-left: 10%;
+    text-decoration-color: white;
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+    height: 3px;
+    text-align: center;
+}
+
+
+
+.blackboxfooter{
+    background-color: black;
+    width: 100%;
+    color: white;
+    margin-bottom: 0px;
+}
+
+
+
+.bit-widget-container{
+     width: 43%;
+    margin-right: 10%;
+    border: solid 4px black;
+    height: 400px;
+    float: right;
+}
+
+.bit-widget{
+    width: 100% !important;
+}
+
+
+
+#spotifyplayer{
+   margin-left:480px;
+   
+}
+#spotifyplayerhome{
+   
+    margin-left: 10%;
+}
+
+
+
+
+.contactmanagement{
+    margin: o auto;
+    text-align: center;
+}
+
+
+
+#mc_embed_signup{
+    background:#fff; 
+    clear:left; 
+    font-family: $paragraph-font;
+    font-size:14px;   
+      width: 50%;
+    margin-bottom: 50px;
+    color: black;
+}
+
+
+
+#aboutmeimg{
+    width: 35%;
+    float: right;
+    margin-top: 60px;
+    margin-right: 10%;
+}
+
+#aboutmeimg:hover{
+    
+width: 50%;
+    
+}
+
+#aboutmetext{
+    font-size: 20px;
+}
+
+
+#aboutme{
+margin-top: 160px;
+    clear: none;
+    margin-bottom: 200px;
+}
+
+#signuptext{
+     margin-bottom: 20px;
+    font-size: 60px;
+    margin-bottom: 6px;
+    margin-top: 60px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+.morebio {
+    
+    button {
+         margin-left: 25%;
+       font-family: $main-font;
+    font-size: 15px;
+   color: white;
+    background-color: black;
+
+    }
+ 
+    p {
+        display: none;
+        font-family: $paragraph-font;
+    }
+    p.visible {
+        display: inline-block;
+        text-align: right;
+        margin-right: 10px;
+    }
+}
+
